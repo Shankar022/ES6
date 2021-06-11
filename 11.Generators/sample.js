@@ -1,7 +1,7 @@
-//Generators
-// Generators are also functions. However, unlike functions, we can pause the execution and later resume the code execution using a generator function.
+//11.Generators
+// 11.Generators are also functions. However, unlike functions, we can pause the execution and later resume the code execution using a generator function.
 //
-// Generators also allow us to turn asynchronous code into synchronous-looking code.
+// 11.Generators also allow us to turn asynchronous code into synchronous-looking code.
 //
 // Syntax:
 function* name(params) { }
@@ -39,7 +39,7 @@ iterator.next();  // Object {value: undefined, done: true}
 
 
 
-//Return in Generators
+//Return in 11.Generators
 function *foo() {
     yield 'hi';
     yield 'dude';
@@ -53,7 +53,7 @@ iterator.next();  // Object {value: "bye", done: true}
 iterator.next();  // Object {value: undefined, done: true}
 
 
-//Yielding Other Generators
+//Yielding Other 11.Generators
 // Not only primitives, we can also yield other generator functions. Example:
 //
 function *foo() {
