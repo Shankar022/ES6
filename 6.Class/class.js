@@ -31,6 +31,7 @@ class Shankar extends Employee {
     }
 }
 
+// creating object
 const s = new Shankar("Shankar", "male", 1783901, 23);
 s.getEmployeeDetails();
 s.getEmployeeName();
